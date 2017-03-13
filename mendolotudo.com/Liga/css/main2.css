@@ -1,0 +1,114 @@
+
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+/*img{
+
+	 max-width: 80%;
+	  max-height: 100%;
+
+}*/
+
+.negro{
+	color: #241929;
+}
+
+.quitar-float {
+
+	float: none;      /*  editaomos la imagen*/
+}
+
+.espacio-arriba{
+	margin-top: 20px;              /* dejamos un espacio arriba*/
+}
+
+  
+.opensans{
+
+	 font-family: 'Open Sans', sans-serif;  /*  importamos la fuente de googlefonts.com*/
+}
+
+.grande{
+	font-size: 3.5em;           /*  cambiamos el tamaño en h1*/
+}
+
+.verde{
+
+	color: #507172;         /*  colocamos color verde a h1*/
+}
+
+.espacio-derecha{
+	  margin-right: 1em;          /* dejamos un espacio en la derecha   1em==10px*/
+
+}
+
+a{
+	color: 1BE7DC;       /*  colocamos color a todos los links*/
+}
+
+.retaso-1{                     /* Usamos animated en el titulo (linea 56)*/
+-weblit-animation-delay: 1s;     /*  para que funcione en google */
+-moz-animation-delay: 1s;       /*  para que funcione en mozilla */
+animation-delay: 1s;          /*retardamos la anmacion un seg */
+
+
+}
+/* 
+.retaso-2{            
+-weblit-animation-delay: 2s;   
+-moz-animation-delay: 2s;        
+animation-delay: 2s;       
+
+
+}
+
+.retaso-3{            
+-weblit-animation-delay: 2s;   
+-moz-animation-delay: 2s;        
+animation-delay: 2s;       
+
+
+}*/
+
+/* MENU.HTML*/
+
+.no-lista Li{                /* menu.html nav,ul ,  mejoramos el estilo de los links ul*/
+list-style-type: none;
+
+}
+.no-lista{                 
+ margin: 10px;
+ padding: 0px;
+}
+
+.padding-largo{
+	padding: 5px 10px;
+}
+
+
+.se-gris{
+ background-color: #eee;
+}
+.padding-largo{                          /*    links de arriba*/
+	padding: 5px 10px;
+}
+
+.inline-block{
+float: none;
+display: inline-block;             
+margin-right: -4px;
+}
+
+a, .azul{                      /*    color del links Menu*/
+	color: #009FFF;
+}
+
+.vete-arriba{
+
+	vertical-align: top;
+}
+
+.mediano{
+	font-size: 1.2em;
+}
